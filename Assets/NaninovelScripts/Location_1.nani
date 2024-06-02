@@ -1,0 +1,55 @@
+@back bg2
+@if CompleteQuest
+@goto .CompleteQuest
+@endif
+
+@if (Location2Available&&!CompleteQuest) 
+@goto .NotCompletedDialogue
+@endif
+
+What a lovely "place"!
+@char TestCharacter_1.Happy
+Hello {PlayerName}!
+@char TestCharacter_1.Confidence
+Do you think how I know your name?
+Well, you write it here a few seconds ago
+My name is TestCharacter_1!
+@char TestCharacter_1.Angry
+Enough, you should hurry! I have a test task for you. So you need to visit the "Place_2" and take the "TestItem" from there. We only have 24 hours before the "WorldEnd"!
+@choice handler:ButtonArea button:UI/GlobalMapChoiceButton pos:900,450 goto:.EndDialogue
+@stop
+
+#EndDialogue
+@set Location2Available=true
+@hideAll
+@goto Map 
+@stop
+
+#NotCompletedDialogue
+@char TestCharacter_1.Angry
+What are you doing here?! We don't have enough time to talk!
+@goto .EndDialogue
+
+#CompleteQuest
+@char TestCharacter_1.Happy
+You did it! You almost completed the "TestTask"!
+@char TestCharacter_1.Confidence
+Now please give it to me
+@choice "Give item" goto:.Give
+@choice "Keep it" goto:.Keep
+@stop
+
+#Give
+@char TestCharacter_1.Happy
+Thanks! You saved entire world
+@goto .End
+
+#Keep
+@char TestCharacter_1.Angry
+Hey! I even don't have phrases for your choise! 
+@goto .End
+
+#End
+@hideAll
+The End!
+@stop

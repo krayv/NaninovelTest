@@ -1,0 +1,28 @@
+@back bg4
+@if CompleteQuest
+There is nothing to do here
+@goto .EndTask
+@endif
+
+There is the "TestItem"! Finally this is the end of your "TestTask"!
+@choice handler:ButtonArea button:UI/TestItem pos:0,0 goto:.TakeItem
+@stop
+
+#TakeItem
+Oh no, there was an ambush! The "minigame" is approaching!
+@startMinigame
+@hidePrinter
+@stop
+
+#FinishMinigame
+@set CompleteQuest=true
+@closeMinigame
+Yay, you nailed it!
+Now time to move!
+@choice handler:ButtonArea button:UI/GlobalMapChoiceButton pos:900,450 goto:.EndTask
+@stop
+
+#EndTask
+@hideAll
+@goto Map
+@stop 

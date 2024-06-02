@@ -1,0 +1,7 @@
+@back bg1
+What's your name?
+@input PlayerName summary:"Enter your name."
+@stop
+Nice to meet you, {PlayerName}!
+@hideAll
+@goto Map  
