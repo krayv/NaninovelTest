@@ -1,0 +1,21 @@
+; English <en> to Russian <ru> localization document for `Location_2` naninovel script
+
+# ~8ac3e863
+; There is nothing to do here
+Больше здесь делать нечего
+
+# ~fcb74b15
+; There is the "TestItem"! Finally this is the end of your "TestTask"!
+Вот он "ТестовыйПредмет"! Наконец-то вы закончите свое "ТестовоеЗадание"!
+
+# ~1208a756
+; Oh no, there was an ambush! The "minigame" is approaching!
+О, нет! Засада! Минигра приближается к вам!
+
+# ~dc7967cf
+; Yay, you nailed it!
+Да, вы справились!
+
+# ~e5392247
+; Now time to move!
+Пора возвращаться!

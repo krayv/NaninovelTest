@@ -1,0 +1,17 @@
+; English <en> to Russian <ru> localization document for `Main` naninovel script
+
+# ~c21830d6
+; What's your name?
+Как тебя зовут?
+
+# ~2698f6b2
+; Enter your name.
+Введите свое имя.
+
+# ~67aa9a
+; Nice to meet you, 
+Приятно познакомиться, 
+
+# ~ad3e566e
+; !
+

@@ -1,0 +1,61 @@
+﻿; English <en> to Russian <ru> localization document for `Location_1` naninovel script
+
+# ~3d44afe5
+; What a lovely "place"!
+Что за чудесное место!
+
+# ~2397b0ee
+; Hello 
+Привет 
+
+# ~ad3e566e
+; !
+
+
+# ~cd9c5b68
+; Do you think how I know your name?
+Думаешь, откуда я знаю твое имя?
+
+# ~cb62cac9
+; Well, you write it here a few seconds ago
+Ну, ты написал его здесь несколько секунд назад
+
+# ~88d19ae4
+; My name is TestCharacter_1!
+Мое имя ТестовыйПерсонаж_1!
+
+# ~85a1c682
+; Enough, you should hurry! I have a test task for you. So you need to visit the "Place_2" and take the "TestItem" from there. We only have 24 hours before the "WorldEnd"!
+Ладно, хватит разговоров! У меня есть тестовое задание для тебя. Тебе нужно посетить "Место_2" и забрать "ТестовыйПредмет" оттуда. У нас есть только 24 часа до "КонцаСвета"!
+
+# ~14d1a7c
+; What are you doing here?! We don't have enough time to talk!
+Что ты здесь делаешь?! У нас нет времени на болтовню!
+
+# ~195291ae
+; You did it! You almost completed the "TestTask"!
+Ты сделал это! Ты почти завершил "ТестовоеЗадание"!
+
+# ~e4a6b70a
+; Now please give it to me
+Теперь, пожалуйста, отдай это мне
+
+# ~67b010e9
+; Give item
+Отдать предмет
+
+# ~554c3b17
+; Keep it
+Оставить
+
+# ~c2b848b6
+; Thanks! You saved entire world
+Спасибо! Ты спас целый мир!
+
+# ~8cd0ece6
+; Hey! I even don't have phrases for your choise!
+Эй! У меня не заготовлены ответы на эту опцию!
+
+# ~85c97a8e
+; The End!
+Конец!
